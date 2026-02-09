@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Tresor Mugisha</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="homepage">
+      <div class="branded">
+        <a href="index.html" class="brand"><span class="logo">T</span>Tresor</a>
+      </div>
+      <nav class="navbar" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="menu" id="menu">☰</div>
+      <div class="close" id="close">&times;</div>
+      <div class="theme-toggler" id="theme-toggler">
+        <svg
+          id="theme-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="40"
+          viewBox="0 -1 24 24"
+        >
+          <path
+            id="icon-path"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"
+          />
+        </svg>
+      </div>
+    </header>
+
+    <section class="contact" id="contact">
+      <div class="content">
+        <h1>Contact Me</h1>
+        <p>Let's connect and build something amazing together.</p>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon">
+              <b></b><i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="text">
+              <h3>Location</h3>
+              <p>Rwanda</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><b></b><i class="fa-solid fa-phone"></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+250 785 220 022</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><b></b><i class="fa-solid fa-envelope"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>tresormugisha07@gmail.com</p>
+            </div>
+          </div>
+          <h2 class="txt">Connect With Me</h2>
+          <ul class="sci">
+            <li>
+              <a href="https://github.com/tresormugisha05"
+                ><i class="bx bxl-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mugisha-tresor-73a876390/"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="contactForm">
+          <form id="contactForm">
+            <h2>Send a Message</h2>
+            <div class="inputBox">
+              <input type="text" name="user_name" required />
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="email" name="user_email" required />
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea name="message" required></textarea>
+              <span>Type Your Message</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Tresor Mugisha. All rights reserved.</p>
+      <p>Full-Stack Developer | Software Engineering Student</p>
+      <p>
+        Contact:
+        <a href="mailto:tresormugisha07@gmail.com">tresormugisha07@gmail.com</a>
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

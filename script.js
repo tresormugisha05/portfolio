@@ -88,22 +88,25 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// Initialize EmailJS
-emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+// Initialize EmailJS - Using Tresor's credentials
+emailjs.init("yLJ-TeeFvaBUPiAFS");
 
-// Form submission handler
+// Form submission handler  
 const contactForm = document.getElementById("contactForm");
 if (contactForm) {
   contactForm.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    emailjs
-      .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+    emailjs.send(
+      "service_jpbi6l9",
+      "qsojkt7",
+      {
         from_name: this.user_name.value,
         from_email: this.user_email.value,
         message: this.message.value,
-        to_email: "tresormugisha07@gmail.com",
-      })
+        reply_to: this.user_email.value,
+      }
+    )
       .then(() => {
         alert("Message sent successfully!");
         this.reset();

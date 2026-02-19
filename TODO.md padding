@@ -1,0 +1,14 @@
+# TODO - Mobile Responsive Fixes
+
+## Plan:
+1. [ ] Update About section on mobile to fill the screen (min-height: 100vh, remove margin)
+2. [ ] Update Skills on mobile to be smaller with 2 per row
+3. [ ] Update Contact form on mobile to be larger and fill screen
+4. [ ] Update Home page on mobile to reduce unused space
+5. [ ] Fine-tune Projects horizontal scroll on mobile
+
+## Changes to make in styles.css:
+- About mobile: min-height: 100vh, margin: 0, padding adjustments
+- Skills mobile: Smaller padding and font size for skill items
+- Contact mobile: Larger form inputs, more padding
+- Home mobile: Reduce padding and margins
